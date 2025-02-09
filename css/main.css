@@ -22,6 +22,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 100px;
     z-index: 1000;
     backdrop-filter: blur(5px);
 }
@@ -35,7 +36,9 @@ nav {
     max-width: 1200px; 
 }
 
-
+#ommeg-section {
+    background-color: azure;
+}
 nav .left a {
     font-size: 1.5rem;
     font-weight: 600;
@@ -91,8 +94,14 @@ nav .right a:hover {
     display: flex;
     width: 100px;
     height: 100px;
+    margin-bottom: 50px;
     
     
     
 
+}
+
+#prosjekt-section .title{
+    display: flex;
+    align-content: center;
 }
